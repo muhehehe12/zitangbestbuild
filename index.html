@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Contractor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-wrapper">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">BUILD<span>PRO</span></div>
+        
+        <div class="nav-controls">
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
+                <button class="lang-btn" data-lang="de">DE</button>
+            </div>
+
+            <!-- Hamburger Menu (CSS based, no emojis) -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#" data-key="nav_home">Home</a></li>
+            <li><a href="#" data-key="nav_services">Services</a></li>
+            <li><a href="#" data-key="nav_contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero animate-on-scroll">
+        <div class="hero-content">
+            <h1 data-key="hero_title">Premium Tradesman Services</h1>
+            <p data-key="hero_desc">Delivering exceptional quality and unmatched precision for your most important projects. We build to last.</p>
+            <button class="cta-btn" data-key="hero_btn">Get a Free Quote</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Premium construction work">
+        </div>
+    </header>
+
+    <!-- Second Section (Reverse Layout on Desktop) -->
+    <section class="features animate-on-scroll">
+        <div class="feature-content text-left">
+            <h2 data-key="feature_title">Master Craftsmanship</h2>
+            <p data-key="feature_desc">Every detail matters. Our team ensures that your vision is executed perfectly, using only top-tier materials and modern techniques.</p>
+        </div>
+        <div class="feature-image image-right">
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Detailed craftsmanship">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
